@@ -13,7 +13,7 @@ This paper presents a novel framework, termed triple sequence learning for cross
 - Scipy==1.7.3
 
 ## Implementation of Tri-CDR
-Source code and corresponding implementation are coming soon...
+Due to an imminent submission deadline, the related codes will be organized and made available after this submission process.
 
 ## BibTeX
 If you find this work useful for your research, please kindly cite Tri-CDR by:
