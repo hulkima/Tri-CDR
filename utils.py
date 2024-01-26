@@ -144,29 +144,29 @@ def data_partition(version, fname, dataset_name, maxlen):
     user_test = {}
     interval = 0
 
-    with open('./Dateset/toy_log_file_final.pkl', 'rb') as f:
+    with open('./Dataset/toy_log_file_final.pkl', 'rb') as f:
         toy_log_file_final = pkl.load(f)
 
-    with open('./Dateset/game_log_file_final.pkl', 'rb') as f:
+    with open('./Dataset/game_log_file_final.pkl', 'rb') as f:
         game_log_file_final = pkl.load(f)
 
-    with open('./Dateset/mix_log_file_final.pkl', 'rb') as f:
+    with open('./Dataset/mix_log_file_final.pkl', 'rb') as f:
         mix_log_file_final = pkl.load(f)
 
-    with open('./Dateset/item_index_toy.pkl', 'rb') as f:
+    with open('./Dataset/item_index_toy.pkl', 'rb') as f:
         item_index_toy = pkl.load(f)
 
-    with open('./Dateset/item_index_game.pkl', 'rb') as f:
+    with open('./Dataset/item_index_game.pkl', 'rb') as f:
         item_index_game = pkl.load(f)
 
-    with open('./Dateset/item_index_mix.pkl', 'rb') as f:
+    with open('./Dataset/item_index_mix.pkl', 'rb') as f:
         item_index_mix = pkl.load(f)
 
-    with open('./Dateset/user_index_overleap.pkl', 'rb') as f:
+    with open('./Dataset/user_index_overleap.pkl', 'rb') as f:
         user_index_overleap = pkl.load(f)
 
-    item_index_game_array = np.load('./Dateset/item_index_game.npy')
-    item_index_toy_array = np.load('./Dateset/item_index_toy.npy')
+    item_index_game_array = np.load('./Dataset/item_index_game.npy')
+    item_index_toy_array = np.load('./Dataset/item_index_toy.npy')
 
     interval = 37868
 
