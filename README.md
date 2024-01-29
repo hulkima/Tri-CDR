@@ -12,7 +12,7 @@ This paper presents a novel framework, termed triple sequence learning for cross
 - Pandas==1.3.5
 - Scipy==1.7.3
 
-## Implementation of RealHNS
+## Implementation of Tri-CDR
 For the Game->Toy setting:
 ```
 CUDA_VISIBLE_DEVICES=0 python Tri_CDR.py --cross_dataset=Toy_Game --dataset=amazon_toy --rate_mix_source 1 --rate_mix_target 1 --rate_source_target 1 --cl_weight 0.1 --triplet_weight 10.0 --triplet_margin 4.0
