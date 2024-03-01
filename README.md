@@ -36,3 +36,6 @@ If you find this work useful for your research, please kindly cite Tri-CDR by:
 }
 ```
 
+## Acknowledgement
+The structure of this code is largely based on [SASRec](https://github.com/pmixer/SASRec.pytorch) and the dataset is collected by [Amazon](https://nijianmo.github.io/amazon/index.html) and [RecBole](https://github.com/RUCAIBox/RecBole-CDR). Thanks for these works.
+
